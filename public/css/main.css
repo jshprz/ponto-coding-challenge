@@ -1,0 +1,26 @@
+#create-transaction-form {
+  margin-bottom: 5rem;
+}
+#search-form {
+  display:flex;
+  flex-direction:row;
+  border:1px solid grey;
+  padding:2px;
+}
+
+#search {
+    flex-grow:2;
+    border:none;
+    width: 80%;
+}
+
+.search-spinner {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 30rem;
+  margin-top: 2rem;
+}
+
+#create-transaction {
+  width: 100%;
+}
