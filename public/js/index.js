@@ -65,7 +65,6 @@ const index = {
         $('#search').change((event) => {
             const searchInputValue = event.target.value.trimLeft();
             const searchResultMarkup = $('div #search-result');
-            const searchResultTableBody = $('div #search-result table tbody');
             const resultPreLoader = `
                 <div class="spinner-border search-spinner" role="status">
                     <span class="sr-only">Loading...</span>
@@ -107,7 +106,7 @@ const index = {
                                         <td>${response[i].amount}</td>
                                     </tr>
                                 `;
-                                searchResultTableBody.append(markupResult);
+                                $('div #search-result table tbody').append(markupResult);
                             }
                         } else {
                             markupResult = `
