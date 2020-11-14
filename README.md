@@ -14,6 +14,6 @@ POSTGRES_USER=,
 POSTGRES_HOST=,
 POSTGRES_DATABASE=,
 POSTGRES_PASSWORD=,
-POSTGRES_PORT=,
+POSTGRES_PORT=
 
 Note: Use higher version of Chrome for Web Speech Recognition
