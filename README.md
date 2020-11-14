@@ -16,4 +16,4 @@ POSTGRES_DATABASE=,
 POSTGRES_PASSWORD=,
 POSTGRES_PORT=
 
-Note: Use higher version of Chrome for Web Speech Recognition
+Note: Use higher version of Chrome for Web Speech Recognition.
